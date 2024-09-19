@@ -31,7 +31,7 @@ export default function LoginScreen() {
 
       if (response.data) {    
         localStorage.setItem("userInfo", JSON.stringify(response.data));
-        navigate("/dashboard"); 
+        navigate("/chat"); 
       }
     } catch (error) {
       setError("Invalid email or password");
