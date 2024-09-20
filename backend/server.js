@@ -5,9 +5,10 @@ const chatRoutes = require("./src/routess/chatRoutes");
 const app = express();
 const cors = require("cors");
 const nodeMon = require("nodemon");
-
+const path = require('path');
 // Connect to the database
 connectDB();
+app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
 app.use(express.json());
 
