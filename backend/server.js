@@ -4,7 +4,6 @@ const userRoutes = require("./src/routess/userRoutes");
 const chatRoutes = require("./src/routess/chatRoutes");
 const app = express();
 const cors = require("cors");
-const nodeMon = require("nodemon");
 const path = require('path');
 // Connect to the database
 connectDB();

@@ -6,12 +6,12 @@ import SignupScreen from "./component/authentication/signup";
 
 function App() {
   return (
-    <Routes>
+    < Routes >
       <Route path="/" element={<LoginScreen />} />
       <Route path="/chat" element={<ChatPage />} />
-      <Route path="/signup" element={<SignupScreen />} />
+      <Route path="/register" element={<SignupScreen />} />
   
-    </Routes>
+    </ Routes >
   );
 }
 

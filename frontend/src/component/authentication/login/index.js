@@ -103,7 +103,7 @@ export default function LoginScreen() {
 
             <Stack>
               <Text>Don't have an account?</Text>
-              <Link to="/signup">
+              <Link to="/register">
                 <Text fontWeight={"bold"} color={"#5C3EC7"}>
                   Sign up
                 </Text>
